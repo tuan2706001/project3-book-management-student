@@ -43,18 +43,6 @@ class HomeController extends Controller
 
         // return $idBookStudent . $idStudent;
 
-        // $array_book[] = new StatusRegisterBooks();
-        // $array_book[0]->idBook = 12;
-        // $array_book[0]->nameBooks = 'abc';
-        // $array_book[0]->nameSubject = 'php';
-        // $array_book[0]->status = 1;
-        //  $array_book[0] =
-        // [
-        //     "idBook" => 12,
-        //     "nameBooks" => "ABC",
-        //     "nameSubject" => "php",
-        //     "status" => 1  
-        // ];
 
 
 
