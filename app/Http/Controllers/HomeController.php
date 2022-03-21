@@ -56,19 +56,7 @@ class HomeController extends Controller
         //     "status" => 1  
         // ];
 
-        // $l = count($idBookStudent);
-        // for ($i = 0; $i < $l; $i++) {
-        //     foreach ($idBookStudent as $idd => $value) {
-        //         $array_book[$i]->idBook = $value["book_id"];
-        //         $array_book[$i]->nameBooks = '';
-        //         $array_book[$i]->nameSubject = '';
-        //         $array_book[$i]->status = '';
-        //     }
-        // }
-        // foreach ($idBookStudent as $idbooks => $item) {
-        //     foreach ($id as $idd => $value) {
-        //     } 
-        // }
+
 
 
         // foreach ($idBookStudent as $idbooks => $item) {
