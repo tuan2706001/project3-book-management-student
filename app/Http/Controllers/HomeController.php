@@ -61,7 +61,7 @@ class HomeController extends Controller
         //     }
         // }
         // $flag1 = json_decode(json_encode($flag), false);
-
+        //abc
 
 
         return view('home.index', [
