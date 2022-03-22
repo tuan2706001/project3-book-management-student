@@ -89,7 +89,7 @@ class HomeController extends Controller
         $subBook->stu_id = $idStudent;
         $subBook->status = 0;
         $subBook->save();
-        $flag = "hai";
+
         return Redirect::route("home.index");
     }
 
