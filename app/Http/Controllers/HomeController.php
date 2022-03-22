@@ -31,38 +31,6 @@ class HomeController extends Controller
             ->select('books.*', 'subject.sub_name', 'booksubscription.bookid')
             ->where('students.stu_id', '=', $idStudent)
             ->where('book_title', 'like', "%$search%")->orderBy('book_id', 'asc')->paginate(3);
-        //SELECT books.book_title,subject.sub_name FROM books
-        //JOIN subject ON books.sub_id = subject.sub_id 
-        //JOIN subjectinfo ON subjectinfo.sub_id = subject.sub_id 
-        //JOIN major ON subjectinfo.ma_id = major.ma_id 
-        //JOIN course ON course.ma_id = major.ma_id 
-        //JOIN classes ON classes.co_id = course.co_id 
-        //JOIN students on students.cl_id = classes.cl_id WHERE students.stu_id = 1;
-        // $books = Book::join()
-        //     ->where('book_title', 'like', "%$search%")->orderBy('book_id', 'asc')->paginate(3);
-
-        // return $idBookStudent . $idStudent;
-
-        //testing git branch in github
-
-
-
-        // foreach ($idBookStudent as $idbooks => $item) {
-        //     $flag = true;
-        //     foreach ($id as $idd => $value) {
-
-        //         if ($item == $value) {
-        //             $flag;
-        //             break;
-        //         }
-        //     }
-        //     if ($item != $value) {
-        //         $flag = false;
-        //     }
-        // }
-        // $flag1 = json_decode(json_encode($flag), false);
-        //abc
-
 
         return view('home.index', [
             "books" => $books,
